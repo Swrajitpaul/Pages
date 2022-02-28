@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+}
+
+h1{
+  background-color: white;
+  font-style: normal;
+  font-size: 5em;
+  font: italic bold 80px Georgia, serif;
+  position: fixed;
+  left: 24%;
+  bottom: 43.5%;
+}
+
+h2{
+  background-color: white;
+  font-style: normal;
+  font-size: 5em;
+  font: italic bold 50px Georgia, serif;
+  position: fixed;
+  left: 32%;
+  bottom: 58%;
+}
+
+h3{
+  background-color: white;
+  font-style: normal;
+  font-size: 5em;
+  font: italic bold 50px Georgia, serif;;
+  position: fixed;
+  left: 37%;
+  bottom: 35.5%;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+nav{
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.line{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 51%;
+}
+
+.btn {
+    border: none;
+    background-color:white;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.btn:hover{
+  background-color: tomato;
+}
+
+.homepage{
+  color:black;
+  border-style: solid;
+  border-color: red;
+}
+
+img.image{
+  position: fixed;
+  top: 30%;
+  left: 26%;
+}
+
+footer{
+    background-color: lightgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}

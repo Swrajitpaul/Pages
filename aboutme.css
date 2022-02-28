@@ -1,0 +1,81 @@
+body {
+  background-repeat: repeat;
+  background-position: top left;
+  text-align: center;
+}
+h1{
+  background-color: white;
+  font-style: italic;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  left: 39%;
+  bottom: 43.5%;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+nav{
+  overflow: hidden;
+  background-color: white;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.line{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 51%;
+}
+
+.btn {
+    border: none;
+    background-color:white;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+  }
+.btn:hover {background: tomato;}
+
+div{
+  position: center;
+}
+
+h2{
+  background-color: white;
+  font-style: italic;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+
+.aboutme{
+  color:black;
+  border-style: solid;
+  border-color: red;
+}
+
+img{
+  border-style: solid;
+  border-width: 10px;
+  border-color: black;
+}
+
+
+footer{
+    background-color: lightgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}

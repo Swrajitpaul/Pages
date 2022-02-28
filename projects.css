@@ -1,0 +1,85 @@
+body {
+  background-color: White;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  text-align: center;
+}
+
+a:link{
+  text-decoration: none;
+}
+
+nav{
+  overflow: hidden;
+  background-color: inherit;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+.line{
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+  width: 51%;
+}
+
+.btn {
+    border: none;
+    background-color:white;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.download{
+    background-color: beige;
+    border-style: ridge;
+    color: tomato;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.download:hover{
+  background-color: white;
+  text-decoration: underline;
+  color: red;
+}
+
+.btn:hover {background: beige;}
+
+h2{
+  background-color: white;
+  font-style: italic;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+
+
+.btn:hover{
+  background-color: tomato;
+}
+
+.myprojects{
+  color:black;
+  border-style: solid;
+  border-color: red;
+}
+
+footer{
+    background-color: lightgrey;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+}
